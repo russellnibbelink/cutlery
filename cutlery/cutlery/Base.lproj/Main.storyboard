@@ -247,20 +247,7 @@
                                     <rect key="frame" x="34" y="232" width="321" height="163"/>
                                 </variation>
                                 <connections>
-                                    <action selector="buttonClick:" destination="PCB-wY-y2W" eventType="touchUpInside" id="xrz-GO-jjU"/>
-                                    <segue destination="49e-Tb-3d3" kind="presentation" identifier="pushTabView" id="nMs-tg-4i0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WqH-ID-aC0">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="260" y="88" width="46" height="30"/>
-                                </variation>
-                                <connections>
-                                    <action selector="click:" destination="PCB-wY-y2W" eventType="touchUpInside" id="2RC-3I-gLs"/>
+                                    <segue destination="49e-Tb-3d3" kind="presentation" id="rWd-3A-AhE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -268,13 +255,11 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="hew-un-xzH"/>
-                                <exclude reference="WqH-ID-aC0"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="hew-un-xzH"/>
-                                <include reference="WqH-ID-aC0"/>
                             </mask>
                         </variation>
                     </view>
