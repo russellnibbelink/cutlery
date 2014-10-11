@@ -15,6 +15,8 @@
 		4611E99D19E9B87B00BC5551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4611E99C19E9B87B00BC5551 /* Images.xcassets */; };
 		4611E9A019E9B87B00BC5551 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4611E99E19E9B87B00BC5551 /* LaunchScreen.xib */; };
 		4611E9AC19E9B87B00BC5551 /* cutleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4611E9AB19E9B87B00BC5551 /* cutleryTests.m */; };
+		468058D719E9D730004EF8F1 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468058D419E9D730004EF8F1 /* FourthViewController.m */; };
+		468058D819E9D730004EF8F1 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468058D619E9D730004EF8F1 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		4611E9A519E9B87B00BC5551 /* cutleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cutleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4611E9AA19E9B87B00BC5551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4611E9AB19E9B87B00BC5551 /* cutleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cutleryTests.m; sourceTree = "<group>"; };
+		468058D319E9D730004EF8F1 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		468058D419E9D730004EF8F1 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		468058D519E9D730004EF8F1 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		468058D619E9D730004EF8F1 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,10 @@
 				4611E99419E9B87B00BC5551 /* FirstViewController.m */,
 				4611E99619E9B87B00BC5551 /* SecondViewController.h */,
 				4611E99719E9B87B00BC5551 /* SecondViewController.m */,
+				468058D319E9D730004EF8F1 /* FourthViewController.h */,
+				468058D419E9D730004EF8F1 /* FourthViewController.m */,
+				468058D519E9D730004EF8F1 /* ThirdViewController.h */,
+				468058D619E9D730004EF8F1 /* ThirdViewController.m */,
 				4611E99919E9B87B00BC5551 /* Main.storyboard */,
 				4611E99C19E9B87B00BC5551 /* Images.xcassets */,
 				4611E99E19E9B87B00BC5551 /* LaunchScreen.xib */,
@@ -225,6 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4611E99819E9B87B00BC5551 /* SecondViewController.m in Sources */,
+				468058D719E9D730004EF8F1 /* FourthViewController.m in Sources */,
+				468058D819E9D730004EF8F1 /* ThirdViewController.m in Sources */,
 				4611E99219E9B87B00BC5551 /* AppDelegate.m in Sources */,
 				4611E99519E9B87B00BC5551 /* FirstViewController.m in Sources */,
 				4611E98F19E9B87B00BC5551 /* main.m in Sources */,
@@ -420,6 +432,7 @@
 				4611E9B119E9B87B00BC5551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4611E9B219E9B87B00BC5551 /* Build configuration list for PBXNativeTarget "cutleryTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +441,7 @@
 				4611E9B419E9B87B00BC5551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
