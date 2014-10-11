@@ -17,6 +17,7 @@
 		4611E9AC19E9B87B00BC5551 /* cutleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4611E9AB19E9B87B00BC5551 /* cutleryTests.m */; };
 		468058D719E9D730004EF8F1 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468058D419E9D730004EF8F1 /* FourthViewController.m */; };
 		468058D819E9D730004EF8F1 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468058D619E9D730004EF8F1 /* ThirdViewController.m */; };
+		468058DF19E9E4AE004EF8F1 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468058DE19E9E4AE004EF8F1 /* IntroViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		468058D419E9D730004EF8F1 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		468058D519E9D730004EF8F1 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		468058D619E9D730004EF8F1 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		468058DD19E9E4AE004EF8F1 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		468058DE19E9E4AE004EF8F1 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +99,12 @@
 				4611E99419E9B87B00BC5551 /* FirstViewController.m */,
 				4611E99619E9B87B00BC5551 /* SecondViewController.h */,
 				4611E99719E9B87B00BC5551 /* SecondViewController.m */,
-				468058D319E9D730004EF8F1 /* FourthViewController.h */,
-				468058D419E9D730004EF8F1 /* FourthViewController.m */,
 				468058D519E9D730004EF8F1 /* ThirdViewController.h */,
 				468058D619E9D730004EF8F1 /* ThirdViewController.m */,
+				468058D319E9D730004EF8F1 /* FourthViewController.h */,
+				468058D419E9D730004EF8F1 /* FourthViewController.m */,
+				468058DD19E9E4AE004EF8F1 /* IntroViewController.h */,
+				468058DE19E9E4AE004EF8F1 /* IntroViewController.m */,
 				4611E99919E9B87B00BC5551 /* Main.storyboard */,
 				4611E99C19E9B87B00BC5551 /* Images.xcassets */,
 				4611E99E19E9B87B00BC5551 /* LaunchScreen.xib */,
@@ -240,6 +245,7 @@
 				4611E99219E9B87B00BC5551 /* AppDelegate.m in Sources */,
 				4611E99519E9B87B00BC5551 /* FirstViewController.m in Sources */,
 				4611E98F19E9B87B00BC5551 /* main.m in Sources */,
+				468058DF19E9E4AE004EF8F1 /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
