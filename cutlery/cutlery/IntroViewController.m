@@ -20,7 +20,7 @@
 }
 
 - (IBAction)click:(UIButton *)sender {
-    [self prepareForSegue:@"pushTabView" sender:self];
+    //[self prepareForSegue:@"pushTabView" sender:self];
 }
 
 
